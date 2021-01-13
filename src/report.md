@@ -19,11 +19,8 @@
 
 ## Результаты
 
-1. 50 % / 50 %
+1. 100 % не успешно
 2. [Расчёт итоговой суммы баланса после денежного перевода в приложении отображается неверно](https://github.com/larlarlar/2.1_Money_Transfer/issues/1#issue-782140760)
-3. [Ввод данных, сумма (2 147 483 648) которых не входит в диапазон int (от -2 147 483 648 до 2 147 483 647)](https://github.com/larlarlar/2.1_Money_Transfer/issues/3#issue-782164360)
-4. [Ввод данных, сумма которых входит в диапазон (верхняя граница) int (от -2 147 483 648 до 2 147 483 647)](https://github.com/larlarlar/2.1_Money_Transfer/issues/2#issue-782161241)
-5. [Замена типа данных int на long](https://github.com/larlarlar/2.1_Money_Transfer/issues/4#issue-782171494)
 
 ## Общие рекомендации
 
