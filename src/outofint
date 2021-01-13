@@ -1,0 +1,41 @@
+# Ввод данных, сумма которых не входит в диапазон int (от -2 147 483 648 до 2 147 483 647)
+
+## Предусловие:
+
+Зайти в приложение InteliJ IDEA. Создать класс Main.
+
+## Шаги:
+
+Создать базовое приложение, позволяющее воспроизвести ситуацию в приложение InteliJ IDEA:
+
+public class Main {
+
+public static void main(String[] args) {
+
+int balance = 2_147_483_647;
+
+int remittance = 1;
+
+int total = balance + remittance;
+
+System.out.println("total:");
+
+System.out.println(total);
+
+System.out.println("done!");
+
+}
+
+}
+
+Нажать комбинацию клавиш Ctrl+SHIFT+F10
+
+Наблюдать результат в консоли.
+
+## Ожидаемый результат:
+
+total:
+
+_somewrongresult_
+
+done!
