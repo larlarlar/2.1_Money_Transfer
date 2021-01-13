@@ -1,0 +1,34 @@
+Замена типа данных int на long
+
+Предусловие:
+Зайти в приложение InteliJ IDEA. Создать класс Main.
+
+Шаги:
+
+Создать базовое приложение, позволяющее воспроизвести ситуацию в приложение InteliJ IDEA:
+public class Main {
+public static void main(String[] args) {
+long balance = 2_147_483_647;
+long remittance = 1;
+long total = balance + remittance;
+System.out.println("total:");
+System.out.println(total);
+System.out.println("done!");
+}
+}
+Нажать комбинацию клавиш Ctrl+SHIFT+F10
+Наблюдать результат в консоли.
+
+Ожидаемый результат:
+total:
+2147483648
+done!
+
+Окружение:
+
+ОС: Windows 10 домашняя, 64-разрядная операционная система, процессор х64
+openjdk version "11.0.9.1" 2020-11-04
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.9.1+1)
+OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.9.1+1, mixed mode)
+Toolbox App Version: 1.19, Released: 18 December 2020
+IntelliJ IDEA Community Edition 2020.3.1
